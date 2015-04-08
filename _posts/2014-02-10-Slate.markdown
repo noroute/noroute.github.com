@@ -1,0 +1,35 @@
+---
+layout: post
+title: Slate - the window manager for Mac OS
+tags: productivity keybindings mac
+published: true
+---
+
+I'm fairly comfortable using a Mac with mostly keyboard shortcuts, but
+the problem of moving windows around and resizing remained
+unsovled. Till now! Enter [Slate](https://github.com/jigish/slate).
+
+Slate makes an application fullscreen, right-half, or left-half with a
+single (eh, actually two) keypress. You can directly jump to one
+specific application or even throw a window to a different screen.
+
+# Installation
+
+Since Slate is most useful when it can have dedicated global keyboard
+shortcuts, which are difficult to come by on a Mac, I use Caps-Lock as
+Super and use that for all Slate keybindings.  This does not come
+built-in but can be done with two tools:
+
+ 1. Disable Caps-Lock in the Mac's keyboard settings (Keyboard -> Modifier Keys -> No Action)
+ 2. Install [PcKeyboardHack](https://pqrs.org/macosx/keyremap4macbook/pckeyboardhack.html.en) and set Caps-Lock to keycode 62 (right-control, which you might just not have anyway)
+ 3. Install [Keyremap4Macbook](https://pqrs.org/macosx/keyremap4macbook/) and set "Remap Right Control to Hyper"
+ 4. Rejoice and use Hyper/Super in your Slate onfig ([here's mine](https://github.com/noroute/portable-environment/blob/master/.slate))!
+
+# Caveats
+
+Beware, Slate has a ton of config options and features and the
+configuration format is a bit arcane. Limit yourself to some basic
+operations at first, to get comfortable. See if you need more,
+later. You can find
+[my config here](https://github.com/noroute/portable-environment/blob/master/.slate),
+it is still very basic.
