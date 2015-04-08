@@ -2,7 +2,6 @@ name: tech subtitles
 description: tech. and social stuff.
 subtitle: stating the obvious. in tech.
 markdown: kramdown
-pygments: true
 highlighter: pygments
 logo: false
 paginate: 15
