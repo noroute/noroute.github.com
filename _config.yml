@@ -8,5 +8,6 @@ paginate: 15
 baseurl: /
 
 # Details for the RSS feed generator
-url:            ''
+url:            'https://noroute.github.io'
 author:         'Florian Thiel'
+copyright:      'Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.'
