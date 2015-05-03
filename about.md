@@ -1,6 +1,7 @@
 ---
 layout: page
-title: About me 
+title: Florian
 ---
 
-This is a static page. It could be an 'about page' if you'd like.
+I'm [@noroute](https://twitter.com/noroute) on Twitter,
+[noroute](https://github.com/noroute/) on GitHub.
